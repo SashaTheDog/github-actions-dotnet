@@ -1,4 +1,5 @@
 namespace GitHubActionsDotNet.Api.Controllers;
+
 using GitHubActionsDotNet.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -29,3 +30,5 @@ public class WeatherForecastController : ControllerBase
     })
         .ToArray();
 }
+
+
